@@ -12,7 +12,7 @@ a {
     text-decoration: none;
 }
 
-.visually-hidden {
+/* .visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -24,7 +24,7 @@ a {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-}
+} */
 
 address {
     font-style: normal;
@@ -149,11 +149,14 @@ address {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .team-list {}
 
-.team-list-item {}
+.team-list-item {
+    background: #ffffff;
+}
 
 .team-image {}
 
@@ -178,10 +181,11 @@ address {
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .portfolio-list {}
